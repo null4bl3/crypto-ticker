@@ -3,9 +3,11 @@
 Simple crypto currency ticker that displays the top 30 currencies in your unix terminal.
 Displays price in dollars, euro and btc, the change in the last hour along with the change the past 7 days.
 
-Refreshes data every 5 minutes using the http://coinmarketcap.northpole.ro/api/ API.
+Refreshes data every 5 minutes using the API from http://coinmarketcap.northpole.ro/api/ .
 
-How to use: 
+----------------------------------------------
+
+How to use:
 
 Download and extract.
 
