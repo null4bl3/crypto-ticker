@@ -7,10 +7,15 @@ Refreshes data every 5 minutes using the API from http://coinmarketcap.northpole
 
 ----------------------------------------------
 
+With nodejs and npm installed.
+
+
 How to use:
 
 Download and extract.
 
 cd crypto-ticker-master/
+
+npm install
 
 node server.js
