@@ -19,3 +19,10 @@ cd crypto-ticker-master/
 npm install
 
 node server.js
+
+
+
+-----------------------------------------------
+
+screenshot:
+![alt tag](https://raw.githubusercontent.com/null4bl3/crypto-ticker/master/screenshot.png)
