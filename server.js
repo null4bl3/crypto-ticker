@@ -26,7 +26,7 @@
 
  				var width = term.width;
  				var height = term.height;
- 				for (var i = 0; i < 30; i++) {
+ 				for (var i = 0; i < 33; i++) {
  					crypto_list[i] = {
  						name: fbResponse.markets[lngth].symbol,
  						price: fbResponse.markets[lngth].price,
@@ -38,12 +38,12 @@
  				term.clear();
  				term.windowTitle("Crypto Ticker");
 
- 				var line_array = ['━'];
+ 				var line_array = ['-'];
 
- 				for (var i = 0; i < 30; i++) {
+ 				for (var i = 0; i < 33; i++) {
  					var run = 0;
  					while (run < width) {
- 						process.stdout.write('━'.green);
+ 						process.stdout.write('-'.green);
  						run++;
  					}
  					console.log();
@@ -51,11 +51,7 @@
  					console.log();
  				}
 
- 				var run = 0;
- 				while (run < width) {
- 					process.stdout.write('═'.green);
- 					run++;
- 				}
+
  				console.log();
  				var run = 0;
  				while (run < width) {
