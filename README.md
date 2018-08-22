@@ -15,7 +15,8 @@ With nodejs and npm installed.
 
 How to use:
 
-Download and extract.
+Clone the repository.
+
 ```
 cd crypto-ticker-master/
 ```
