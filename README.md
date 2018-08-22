@@ -5,6 +5,9 @@ Displays price in dollars, euro and btc, the change in the last hour along with 
 
 Refreshes data every 5 minutes using the API from http://coinmarketcap.northpole.ro/api/ .
 
+## NOTE
+coinmarketcap is disabling their public API in many ways, which could render this project fairly useless.
+
 ----------------------------------------------
 
 With nodejs and npm installed.
