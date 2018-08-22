@@ -16,15 +16,15 @@ With nodejs and npm installed.
 How to use:
 
 Download and extract.
-´´´
+```
 cd crypto-ticker-master/
-´´´
-´´´
+```
+```
 npm install
-´´´
-´´´
+```
+```
 node server.js
-´´´
+```
 
 
 -----------------------------------------------
